@@ -12,7 +12,8 @@ import {
   CardMenu,
   IconButton,
 } from "react-mdl";
-import { Link } from "react-router-dom";
+import cert1 from "../aws_icon_146074.png";
+// import cert2 from "../google.png";
 
 class Project extends Component {
   constructor(props) {
@@ -24,6 +25,13 @@ class Project extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
+          {/* <img
+            className="cert2"
+            src={cert2}
+            alt="logo...."
+            // style={{ width: "90px" }}
+          /> */}
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -46,40 +54,33 @@ class Project extends Component {
               <a href="https://slider23.netlify.app">Deployed App</a>
             </CardActions>
             <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
+              <Button
+                colored
+                href="https://github.com/twentymurial33/blackjack"
+              >
                 GitHub
               </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
+              <a href="https://blackjack2022.netlify.app/">Deployed App</a>
             </CardActions>
             <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
+              <Button colored href="https://github.com/twentymurial33/Js_blur">
                 GitHub
               </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
+              <a href="https://confident2021.netlify.app/">Deployed App</a>
             </CardActions>
-            <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
-                GitHub
-              </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
-            </CardActions>
-            <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
-                GitHub
-              </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
-
+          <img
+            className="cert1"
+            src={cert1}
+            alt="logo...."
+            // style={{ width: "90px" }}
+          />
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
-                textAlign: "center",
+                position: "center",
                 background:
                   "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover",
                 backgroundColor: "grey",
@@ -89,59 +90,53 @@ class Project extends Component {
             </CardTitle>
             <CardText></CardText>
             <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
+              <Button colored href="https://github.com/twentymurial33/movie">
                 GitHub
               </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
+              <a href="https://dry-cliffs-10729.herokuapp.com/">Deployed App</a>
             </CardActions>
             <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
+              <Button colored href="https://github.com/twentymurial33/react">
                 GitHub
               </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
+              <a href="https://hopeful-nobel-780d52.netlify.app">
+                Deployed App
+              </a>
             </CardActions>
             <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
+              <Button
+                colored
+                href="https://github.com/twentymurial33/Generator"
+              >
                 GitHub
               </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
+              <a href="https://dreamy-wilson.netlify.app/">Deployed App</a>
             </CardActions>
-            <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
-                GitHub
-              </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
-            </CardActions>
-            <CardActions border>
-              <Button colored href="https://github.com/twentymurial33">
-                GitHub
-              </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
-            </CardActions>
+
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
         </div>
       );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div>
-          <h1>This is Angular</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>This is React</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is Javascript</h1>
-        </div>
-      );
+      // } else if (this.state.activeTab === 1) {
+      //   return (
+      //     <div>
+      //       <h1>This is Angular</h1>
+      //     </div>
+      //   );
+      // } else if (this.state.activeTab === 2) {
+      //   return (
+      //     <div>
+      //       <h1>This is React</h1>
+      //     </div>
+      //   );
+      // } else if (this.state.activeTab === 3) {
+      //   return (
+      //     <div>
+      //       <h1>This is Javascript</h1>
+      //     </div>
+      //   );
     }
   }
 
