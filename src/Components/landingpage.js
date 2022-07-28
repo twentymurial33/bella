@@ -26,12 +26,7 @@ const Landing = () => {
           className="btn-main-offer"
         >
           {" "}
-          <img
-            className="social"
-            src={social}
-            alt="logo...."
-            // style={{ width: "90px" }}
-          />
+          <img className="social" src={social} alt="logo...." />
         </a>
       </div>
     </div>

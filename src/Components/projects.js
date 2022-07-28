@@ -13,7 +13,6 @@ import {
   IconButton,
 } from "react-mdl";
 import cert1 from "../aws_icon_146074.png";
-// import cert2 from "../google.png";
 
 class Project extends Component {
   constructor(props) {
@@ -25,13 +24,6 @@ class Project extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          {/* <img
-            className="cert2"
-            src={cert2}
-            alt="logo...."
-            // style={{ width: "90px" }}
-          /> */}
-
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -51,7 +43,7 @@ class Project extends Component {
               <Button colored href="https://github.com/twentymurial33">
                 GitHub
               </Button>
-              <a href="https://slider23.netlify.app">Deployed App</a>
+              <a href="https://slider23.netlify.app">Sliding App</a>
             </CardActions>
             <CardActions border>
               <Button
@@ -60,21 +52,16 @@ class Project extends Component {
               >
                 GitHub
               </Button>
-              <a href="https://blackjack2022.netlify.app/">Deployed App</a>
+              <a href="https://blackjack2022.netlify.app/">BlackJack App</a>
             </CardActions>
             <CardActions border>
               <Button colored href="https://github.com/twentymurial33/Js_blur">
                 GitHub
               </Button>
-              <a href="https://confident2021.netlify.app/">Deployed App</a>
+              <a href="https://confident2021.netlify.app/">Fading App</a>
             </CardActions>
           </Card>
-          <img
-            className="cert1"
-            src={cert1}
-            alt="logo...."
-            // style={{ width: "90px" }}
-          />
+          <img className="cert1" src={cert1} alt="logo...." />
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
@@ -93,14 +80,14 @@ class Project extends Component {
               <Button colored href="https://github.com/twentymurial33/movie">
                 GitHub
               </Button>
-              <a href="https://dry-cliffs-10729.herokuapp.com/">Deployed App</a>
+              <a href="https://dry-cliffs-10729.herokuapp.com/">Movie App</a>
             </CardActions>
             <CardActions border>
               <Button colored href="https://github.com/twentymurial33/react">
                 GitHub
               </Button>
               <a href="https://hopeful-nobel-780d52.netlify.app">
-                Deployed App
+                Quote Generator
               </a>
             </CardActions>
             <CardActions border>
@@ -110,7 +97,7 @@ class Project extends Component {
               >
                 GitHub
               </Button>
-              <a href="https://dreamy-wilson.netlify.app/">Deployed App</a>
+              <a href="https://dreamy-wilson.netlify.app/">Quotes</a>
             </CardActions>
 
             <CardMenu style={{ color: "#fff" }}>
@@ -119,24 +106,6 @@ class Project extends Component {
           </Card>
         </div>
       );
-      // } else if (this.state.activeTab === 1) {
-      //   return (
-      //     <div>
-      //       <h1>This is Angular</h1>
-      //     </div>
-      //   );
-      // } else if (this.state.activeTab === 2) {
-      //   return (
-      //     <div>
-      //       <h1>This is React</h1>
-      //     </div>
-      //   );
-      // } else if (this.state.activeTab === 3) {
-      //   return (
-      //     <div>
-      //       <h1>This is Javascript</h1>
-      //     </div>
-      //   );
     }
   }
 
