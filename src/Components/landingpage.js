@@ -2,12 +2,12 @@ import React from "react";
 import Typed from "react-typed";
 import logo from "../me.jpg";
 import social from "../linkedin.png";
+import Project from "./projects";
 
 const Landing = () => {
   return (
     <div className="header-wraper">
       <div className="main-info">
-        {/* <h1>React Developer</h1> */}
         <Typed
           className="typed-text"
           strings={[
@@ -28,6 +28,7 @@ const Landing = () => {
           {" "}
           <img className="social" src={social} alt="logo...." />
         </a>
+        <Project />
       </div>
     </div>
   );

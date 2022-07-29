@@ -48,8 +48,9 @@
 
 .projects-grid {
   display: flex;
+  margin-top: auto;
   background: black;
-  height: 650px; /* fallback for old browsers */
+  height: 0px; /* fallback for old browsers */
 }
 
 .resume {
@@ -81,8 +82,9 @@ body {
 /************************NAVBAR*******************/
 
 .logo {
-  width: 200px;
-  padding-bottom: 10px;
+  width: 260px;
+  padding-bottom: 15px;
+  margin-top: 10px;
   /* margin-right: 500px; */
 }
 
@@ -120,7 +122,7 @@ nav ul li {
   background: url(ground.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 140vh;
 }
 .main-info {
   display: flex;
@@ -133,6 +135,7 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  margin-top: 0px;
 }
 
 .main-info h1 {
@@ -143,18 +146,6 @@ nav ul li {
 .typed-text {
   font-size: 2rem;
   color: var(--primary-white);
-}
-.btn-main-offer {
-  border: 1px solid var(--primary-white);
-  text-transform: uppercase;
-  border-radius: 0;
-  padding: 10px;
-  color: var(--primary-orange);
-  margin: 2rem;
-  width: 120px;
-  height: 180px;
-  margin-top: 20px;
-  padding-top: 10px;
 }
 
 .btn-main-offer:hover {
@@ -192,8 +183,8 @@ nav ul li {
 }
 .social {
   display: block;
-  margin-top: 50px;
-  margin-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   width: 100px;

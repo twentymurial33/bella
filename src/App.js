@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Layout, Header, Navigation, Drawer } from "react-mdl";
+import { Layout, Header } from "react-mdl";
 import Main from "./Components/main";
 import { Link } from "react-router-dom";
 
@@ -17,22 +17,7 @@ class App extends Component {
               </Link>
             }
             scroll
-          >
-            <Navigation>
-              <Link to="/projects">Projects</Link>
-            </Navigation>
-          </Header>
-          <Drawer
-            title={
-              <Link style={{ textDecoration: "none", color: "black" }} to="/">
-                MURIAL'S PORTFOLIO
-              </Link>
-            }
-          >
-            <Navigation>
-              <Link to="/projects">Projects</Link>
-            </Navigation>
-          </Drawer>
+          ></Header>
         </Layout>
         <Main />
       </div>
